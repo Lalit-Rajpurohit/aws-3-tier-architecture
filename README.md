@@ -62,6 +62,3 @@ The infrastructure follows the **AWS Well-Architected Framework**, prioritizing 
 - **Resilience:** Terminated random EC2 instances; ASG auto-healed within 60 seconds.
 - **Failover:** Rebooted RDS with failover; application remained responsive.
 - **Security:** Verified no direct SSH access; database strictly isolated.
-
-## 📜 License
-MIT
